@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Contact form for SpaceX and ISS microsite">
+    <meta name="keywords" content="contact us">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>SPACE EXPLORATION AND RESEARCH</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="flight.html">Flights</a>
+        <a href="isslocation.html">The ISS</a>
+        <a href="contact.html" class="currentPage">Contact</a>
+        <a href="about.html">About</a>
+      </nav>
+    </header>
+    <main>
+      <h2  class="intro">CONTACT US</h2>
+      <section>
+        <p class="centeredMessage">Fill out the following form and we will get in touch with you.</p>
+        <div class="flexbox">
+          <div class="contentLeftForm">
+            <div class="formSuccess">
+              <p>The form was submitted successfully</p>
+              <p>You will be contacted by us within 72 hours, thank you!</p>
+            </div>
+            <form>
+              <div class="inputDialog">
+                <label for="fname">First name</label>
+                <input type="text" id="fname" />
+                <p class="fnameError">First name is required</p>
+              </div>
+              <div class="inputDialog">
+                <label for="lname">Last name</label>
+                <input type="text" id="lname" />
+                <p class="lnameError">Last name is required</p>
+              </div>
+              <div class="inputDialog">
+                <label for="email">Email</label>
+                <input type="email" id="email" />
+                <p class="emailError">Your email is not formatted like an email adress</p>
+              </div>
+              <div class="inputDialog">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" />
+                <p class="subjectError">The subject must contain at least 5 characters</p>
+              </div>
+              <div class="inputDialog">
+                <label for="message">Type your message here</label>
+                <textarea id="message" rows="6" placeholder="Type here.."></textarea>
+                <p class="messageError">The message must contain at least 25 characters</p>
+              </div>
+              <button type="submit" id="submit">Submit</button>
+            </form>
+          </div>
+          <div class="contentRightSmall">
+            <img src="images/28291786662_e2b94a69cf_c.jpg" alt="Image of rocket">
+          </div>
+       </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footerContent">
+        <div class="flexbox">
+          <div class="footerItem topPadding">
+            <img src="icons/earthicon3.svg" alt="Icon of the planet">
+            <a href="index.html">Home</a>
+          </div>
+          <div class="footerItem topPadding">
+            <img src="icons/rocket2.svg" alt="Icon of rocket">
+            <a href="flight.html">Flight</a>
+          </div>
+          <div class="footerItem topPadding">
+            <img src="icons/iss2.svg" alt="Icon of ISS">
+            <a href="isslocation.html">The ISS</a>
+          </div >
+          <div class="footerItem topPadding">
+            <img src="icons/contact3.svg" alt="Icon of antenna">
+            <a href="contact.html">Contact us</a>
+          </div>
+          <div class="footerItem topPadding">
+            <img src="icons/about.svg" alt="Icon of people">
+            <a href="about.html">About SpaceX</a>
+          </div>
+        </div>
+        <p class="copyright">All SpaceX images are copied from SpaceX flicker account and are allowed for 'fair use' based on license posted on creative commons: <a href="https://creativecommons.org/licenses/by-nc/2.0/">https://creativecommons.org/licenses/by-nc/2.0/</a></p>
+      </div>  
+    </footer>
+    <script src="js/validate.js"></script>
+  </body>
+</html>
